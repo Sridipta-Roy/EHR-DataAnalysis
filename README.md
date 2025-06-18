@@ -1,5 +1,7 @@
 
-# ICU Mortality and Length of Stay Prediction using EHR Data
+# 🏥📊 ICU Mortality and Length of Stay Prediction using EHR Data
+
+`#MachineLearning` `#ClassificationAndRegression` `#HealthcareAnalytics` `#ICU` `#MIMICIV` `#EHR` `#MortalityPrediction` `#LengthOfStay`
 
 This project investigates the use of machine learning techniques to predict **ICU mortality** and **length of ICU stay** using clinical data from the [MIMIC-IV](https://physionet.org/content/mimiciv/2.2/) database. It demonstrates how early prediction using 24-hour patient records can enhance clinical decision-making, resource planning, and patient management in intensive care units (ICUs).
 
@@ -95,34 +97,6 @@ This project investigates the use of machine learning techniques to predict **IC
 
 ---
 
-## 📌 Project Structure
-
-```
-📁 ICU-Prediction/
-│
-├── data/                  # Processed dataset files
-├── notebooks/             # Exploratory data analysis and modeling notebooks
-├── models/                # Trained model pickle files
-├── figures/               # ROC, PR curves, feature importance, etc.
-├── scripts/               # Modular code for preprocessing and training
-├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
-```
-
----
-
-## 📅 Project Timeline
-
-| Week | Task |
-|------|------|
-| 1–2  | Literature review, data access setup |
-| 3–4  | Data preprocessing and integration |
-| 5–6  | Feature selection, EDA, and classification modeling |
-| 7    | Regression modeling for LOS prediction |
-| 8    | Evaluation, reporting, and future scope planning |
-
----
-
 ## 🚀 Future Enhancements
 
 - Patient stratification using clustering for risk-based care
@@ -140,16 +114,10 @@ This project investigates the use of machine learning techniques to predict **IC
 
 ---
 
-## 🧠 Authors
-
-- [S. Sudharsan](mailto:sudharsan.s@northeastern.edu)  
-- [Sridipta Roy](mailto:roy.sr@northeastern.edu)
-
----
-
 ## 🛠️ Tech Stack
 
 - Python (Pandas, NumPy, Scikit-learn, XGBoost)
 - Matplotlib, Seaborn
 - Jupyter Notebooks
-- MIMIC-IV SQL database
+- Google Colab
+
